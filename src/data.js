@@ -13,7 +13,7 @@ export const DATA = {
     Database: ["MS SQL Server", "MySQL", "SSMS", "Stored Procedures", "Query Optimisation"],
     Tools: ["Git", "GitHub", "Jenkins CI/CD", "Postman", "FTP", "Visual Studio", "VS Code", "Claude Code"]
   },
-  Jobs: [
+  jobs: [
     { role: "Software Developer", co: "Inquizity Metanoia OPC Pvt. Ltd.", when: "Nov 2025 – Sep 2026", pts: [
       "Built Angular modules for DataSavi, a low-code platform: role-based dynamic menus and auto-generated screens.",
       "Designed C# .NET Web APIs with validation and SQL Server stored procedures for faster processing.",
@@ -24,11 +24,11 @@ export const DATA = {
       "Developed Angular components for DataSavi and integrated them with .NET Web APIs.",
       "Wrote SQL queries and stored procedures; helped with debugging and testing in an Agile team."] }
   ],
-  Projects: [
+  projects: [
     { t: "Car Rental System", d: "Core Java OOP app with booking, rental and return logic persisted in MS SQL Server via JDBC.", s: ["Core Java", "OOP", "JDBC", "MS SQL"] },
     { t: "I-Voting System", d: "Full-stack online voting platform with Voter ID eligibility checks, secure auth and a normalised database. B.E. final year project.", s: ["Python", "Django", "MySQL", "JavaScript"] }
   ],
-  Education: [
+  edu: [
     ["B.E. Computer Engineering", "CSMIT Panvel, Mumbai University", "2020 – 2024 · CGPA 8.0"],
     ["Java Full Stack Development", "Certification, Vashi", "2024 – 2025"],
     ["Basic Python", "BloomZen Infosolutions, Thane", "2023"]
